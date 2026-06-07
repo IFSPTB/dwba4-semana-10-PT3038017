@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8"/>
+
+        <link rel="icon" href="img/favicon.ico"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Eventos</title>
+        
+        <header class="cabecalho">
+            <nav class="menu">
+                <a class="menu-link" href="index.html">HOME</a>
+                <a class="menu-link" href="eventos.html">EVENTOS</a>
+                <a class="menu-link" href="contato.html">CONTATO</a>
+
+            <div class="menu-dropdown">
+                <a class="menu-link menu-link--cursos" href="#">CURSOS</a>
+                <div class="menu-submenu">
+                    <a class="menu-submenu-link" href="curso1.html">Análise e Desenvolvimento de Sistemas</a>
+                    <a class="menu-submenu-link" href="engprod.html">Engenharia de Produção</a>
+                </div>
+            </div>
+
+            <a class="menu-link" href="login.html">ENTRAR</a>
+            <a class="menu-link menu-link--sobre" href="sobre.html">SOBRE</a>
+            </nav>
+        </header>
+
+        <div class="image">
+            <img src="img/Logo.jpg"/>
+        </div>
+
+        <br/>
+
+    </head>
+
+    <body>
+
+        <h1>Inscreva-se</h1>
+
+        <form>
+            <fieldset>
+                Evento
+                <br/>
+                <select name="evento" class="selecione-evento">
+                    <option class="option1">-- Selecione --</option>
+                    <option>Voe sem asas</option>
+                    <option>Festa Junina</option>
+                    <option>Semana da tecnologia</option>
+                </select>
+            </fieldset>
+            </br>
+            <fieldset>
+                <legend>Informações de acesso</legend> </br>
+                <label for="nomeUsuario">Usuário</label>
+                <input type="text" required name="nomeUsuario" id="nomeUsuario"> </br> </br>
+                <label for="senhaUsuario">Senha</label>
+                <input type="password" name="senhaUsuario" id="senhaUsuario"> </br> </br>
+                <label for="confirmeSenha">Confirme a senha</label>
+                <input type="password" name="confirmeSenha" id="confirmeSenha">
+            </fieldset>
+            </br>
+            <fieldset>
+                <legend>Informações pessoais</legend> </br>
+                <label for="nomePessoa">Nome</label>
+                <input type="text" name="nomePessoa" id="nomePessoa"> </br> </br>
+                <label for="emailPessoa">E-mail</label>
+                <input type="text" name="emailPessoa" id="emailPessoa"> </br> </br>
+                <label for="numeroPessoa">Celular</label>
+                <input type="number" name="celularPessoa" id="celularPessoa"> (99) 99999-9999</br></br>
+            <fieldset>
+                <legend>Sexo</legend>
+                Masculino<input type="radio" value="Masculino" name="masc">
+                Feminino<input type="radio" value="Feminino" name="fem">
+
+            </fieldset>
+                </br>
+                <label for="dataNasc">Data de nascimento</label>
+                <input type="date" name="dataNasc" id="dataNasc">
+                </br>
+                </br>
+                <label for="corFav">Cor favorita</label>
+                <input type="color" name="corFav" id="corFav">
+                </br>
+                </br>
+                <label for="perfilGit">Perfil no GitHub</label>
+                <input type="text" name="perfilGit" id="perfilGit">
+            </fieldset>
+            </br>
+        
+            <input type="button" value="Inscrever-se" class="buttonevent">
+            </br>
+            </br>
+            <input type="button" value="Limpar" class="buttonevent">
+        </form>
+
+        <br/><br/>
+        <a href="https://www.facebook.com/IFSaoPaulo/"><img src="img/facebook.png" width="35px"></a>
+        <h5 class="textdown">IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</h5>
+    </body>
+</html>
